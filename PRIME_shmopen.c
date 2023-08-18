@@ -51,7 +51,7 @@ void main(int argc, char* argv[]){
 	int fd, i, j,flag;
 	int* shared_memory;
 	
-	fd = shm_open("chandan", O_RDWR , 0666);	
+	fd = shm_open("OS", O_RDWR , 0666);	
 	shared_memory = (int*) mmap(NULL,1024, PROT_WRITE, MAP_SHARED, fd, 0);
 	
 	

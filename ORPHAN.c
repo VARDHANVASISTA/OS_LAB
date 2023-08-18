@@ -21,7 +21,7 @@ int main()
         printf("[CHILD] My Parent ID is %d\n ",parentpid);
         printf("[Child] Sleeping For 10 Seconds\n");
         sleep(10);
-        printf("Parent Ended So Orphan\n");
+        printf("Parent Ended So Orphan process adapted by init process\n");
         exit(0);
     }
     else
